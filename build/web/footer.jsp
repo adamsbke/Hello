@@ -1,0 +1,1 @@
+<div id="footer"><div class="fleft">Copyright Adama Coulibaly 2012</div><div class="fright">Software Developer <a href="http://www.temple.edu/cis/" target="_blank">@ College of Sc. & Tech.</a></div><div class="fcenter">Design by: <a href="http://www.templatesperfect.com/">Templatesperfect.com</a></div></div>

@@ -1,0 +1,31 @@
+.inner_copy {border:0;color:#f00;float:left;width:50% !important;margin:-100% 0 0 0;overflow:hidden;line-height:0;padding:0;font-size:11px}
+.fleft {float:left}
+.fright  {float:right}
+.fcenter {float:none;margin:0 auto;text-align:center}
+.fclear {clear:both}
+body {margin:0;padding:0;background:#0c1900 url(images/bg.jpg) no-repeat center top;text-align:justify;font-family:"Trebuchet MS", Helvetica, sans-serif;font-size:12px;color:#333}
+#wrapper {width:980px;margin:0 auto;background:#fff}
+#header {width:980px;height:200px;margin:0 auto}
+#left {float:left;width:190px;margin:5px 0 0 10px;padding:5px}
+#content {float:left;width:558px;margin:5px 0 0 10px;padding:5px;border:1px dashed #FF9900}
+#right {float:right;width:170px;margin:5px 0 0 10px;padding:5px}
+.clear {clear:both;height:0}
+#footer {margin:0 auto;width:980px;height:50px;padding:10px 0px 0 0;background:url(images/footer.png) no-repeat center top;text-align:right}
+#footer div {padding:0 51px}
+h2 {font-size:25px;display:inline;font-weight:lighter}
+h3 {font-size:17px;color:#FF6633;display:inline;font-weight:lighter}
+h4 {font-size:14px;color:#ccc;display:inline;padding-left:30px}
+.date {font-size:11px;color:#333;font-weight:bold;display:block}
+p, ol, ul {line-height:22px}
+ul {margin-left:0;padding-left:0;list-style:none}
+ul li {padding:2px 0 5px 0;border-bottom:1px dotted #444}
+ul li.first {background:none}
+img {float:left;margin:8px;border:2px solid #ccc}
+h1 {padding:45px 0 0 30px;color:#990;font-size:40px;text-decoration:none;line-height:36px;margin:0px}
+h1 a {color:#990;text-decoration:none}
+h1 a:hover {color:#ffCC00;text-decoration:none}
+#menu {height:50px;margin-top:50px;padding-left:50px;background:url(images/menu.png) no-repeat center bottom}
+.toplinks {width:100px;text-align:center;float:left;height:30px;line-height:40px;font-family:tahoma;font-size:12px;font-weight:bold;margin:5px 0 0 3px;color:#333;text-decoration:none;background:url(images/linkbg1.png) no-repeat center bottom}
+.toplinks:hover {color:#be4204;background:url(images/linkbg1.png) no-repeat center bottom}
+a {color:#336600}
+a:hover {text-decoration:none;color:#000}
