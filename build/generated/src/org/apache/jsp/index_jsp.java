@@ -11,6 +11,14 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
 
   private static java.util.Vector _jspx_dependants;
 
+  static {
+    _jspx_dependants = new java.util.Vector(4);
+    _jspx_dependants.add("/menu.jsp");
+    _jspx_dependants.add("/right_content.jsp");
+    _jspx_dependants.add("/left_content.jsp");
+    _jspx_dependants.add("/footer.jsp");
+  }
+
   private org.apache.jasper.runtime.ResourceInjector _jspx_resourceInjector;
 
   public Object getDependants() {
@@ -55,7 +63,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<div id=\"header\">\n");
       out.write("\t<h1><a href=\"#\">Adama Coulibaly </a></h1>\n");
       out.write("\t<h4>Temple University</h4>\n");
-      out.write("\t<div id=\"menu\">\n");
+      out.write("        ");
+      out.write("<div id=\"menu\">\n");
       out.write("\t\t<a href=\"index.jsp\" class=\"toplinks\">Home</a>\n");
       out.write("                <a href=\"index.jsp\" class=\"toplinks\">About Me</a>\n");
       out.write("                <a href=\"gallery.jsp\" class=\"toplinks\">Gallery</a>\n");
@@ -64,10 +73,13 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                <a href=\"experience.jsp\" class=\"toplinks\">Experience</a>\n");
       out.write("                <a href=\"resumeac.pdf\" class=\"toplinks\">Resume</a>\n");
       out.write("\t\t<a href=\"contact.jsp\" class=\"toplinks\">Contact</a>\n");
-      out.write("\t</div>\n");
+      out.write("\t</div>");
+      out.write("\n");
       out.write("</div>\n");
       out.write("<div id=\"wrapper\"><div class=\"inner_copy\"></div>\n");
-      out.write("\t<div id=\"right\">\n");
+      out.write("\n");
+      out.write("\t");
+      out.write("<div id=\"right\">\n");
       out.write("\t\t<h3>News and Updates</h3>\n");
       out.write("\t\t<p><span class=\"date\">Fall 2012</span>\n");
       out.write("                    <ul>\n");
@@ -83,8 +95,11 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t<li><a href=\"#\">Race and Diversity</a></li>\n");
       out.write("\t\t</ul>\n");
       out.write("                </p>\n");
-      out.write("\t</div>\n");
-      out.write("\t<div id=\"left\">\n");
+      out.write("\t</div>");
+      out.write("\n");
+      out.write("\n");
+      out.write("        ");
+      out.write("<div id=\"left\">\n");
       out.write("\t\t<h3>ADAMA COULIBALY </h3>\n");
       out.write("\t\t<p> Graduate Student <br> (Research Assistant)<br><br> Mailing address: <br>4423 Brown Street 1 floor <br>Philadelphia, PA 19104,<br><br>Email: adamac at temple dot edu<br><br>Phone: 267-243-3954</P>\n");
       out.write("\n");
@@ -93,21 +108,24 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t<li class=\"first\"><a href=\"http://www.temple.edu/cis/\">CIS Department</a></li>\n");
       out.write("\t\t\t<li><a href=\"resumeac.pdf\">My Resume</a></li>\n");
       out.write("\t\t\t<li><a href=\"http://www.cis.temple.edu/~cctan/reu-2012.html\">REU Site</a></li>\n");
-      out.write("\t\t\t\n");
-      out.write("\t\t\t\n");
+      out.write("\n");
+      out.write("\n");
       out.write("\t\t</ul>\n");
-      out.write("\t</div>\n");
+      out.write("</div>\n");
+      out.write("\n");
+      out.write("        \n");
       out.write("\t<div id=\"content\">\n");
       out.write("\t\t<h2></h2>\n");
       out.write("\t\t<p><img src=\"images/p.jpg\" alt=\"\" width=\"180\" height=\"200\" /></p>\n");
-      out.write("                <p><br><br><br><br><br><br><br><br><br><br></p>\n");
+      out.write("                <p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>></p>\n");
       out.write("\t\t<h3>About me </h3>\n");
       out.write("\t\t<p>I am in BS/MS CS integrated program in the Department of Computer and Information Sciences at Temple University.  I am in senior fifth year and expected to be graduated with Bachelor of Science in CS in Spring 2013 and Master of Science in CS in Spring 2014. I am currently a Research Assistant in the Center of Networked Computing (CNC) and an active member of Temple University programming Team. I represented the University in 2010 during ACM international collegiate programming Context (ICPC).</p>\n");
       out.write("\n");
       out.write("\t</div>\n");
       out.write("\t<div class=\"clear\"></div>\n");
       out.write("</div>\n");
-      out.write("<div id=\"footer\"><div class=\"fleft\">Copyright Adama Coulibaly 2012</div><div class=\"fright\">Software Developer <a href=\"http://www.temple.edu/cis/\" target=\"_blank\">@ College of Sc. & Tech.</a>  The Smart Choice.</div><div class=\"fcenter\">Design by: <a href=\"http://www.templatesperfect.com/\">Templatesperfect.com</a></div></div>\n");
+      out.write("<div id=\"footer\"><div class=\"fleft\">Copyright Adama Coulibaly 2012</div><div class=\"fright\">Software Developer <a href=\"http://www.temple.edu/cis/\" target=\"_blank\">@ College of Sc. & Tech.</a></div><div class=\"fcenter\">Design by: <a href=\"http://www.templatesperfect.com/\">Templatesperfect.com</a></div></div>\n");
+      out.write("\n");
       out.write("</body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {

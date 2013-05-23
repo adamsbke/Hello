@@ -27,7 +27,7 @@
 		<h2></h2>
 		<p><img src="images/p.jpg" alt="" width="180" height="200" /></p>
                 <p><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>></p>
-		<h3>About me </h3>
+		<h3>About me this is a change in index_v1 branch </h3>
 		<p>I am in BS/MS CS integrated program in the Department of Computer and Information Sciences at Temple University.  I am in senior fifth year and expected to be graduated with Bachelor of Science in CS in Spring 2013 and Master of Science in CS in Spring 2014. I am currently a Research Assistant in the Center of Networked Computing (CNC) and an active member of Temple University programming Team. I represented the University in 2010 during ACM international collegiate programming Context (ICPC).</p>
 
 	</div>
